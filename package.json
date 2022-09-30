@@ -9,9 +9,10 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md}\"",
     "changeset": "changeset add",
-    "version": "changeset version"
+    "version": "changeset version",
+    "eslint": "eslint --ext .js,.jsx,.ts,.tsx --fix ."
   },
   "devDependencies": {
     "@changesets/cli": "^2.24.4",
@@ -24,3 +25,4 @@
   },
   "packageManager": "pnpm@7.12.2"
 }
+w
