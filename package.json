@@ -1,5 +1,5 @@
 {
-  "name": "eslint-fedtop",
+  "name": "fedtop-linter",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
@@ -25,4 +25,3 @@
   },
   "packageManager": "pnpm@7.12.2"
 }
-w
